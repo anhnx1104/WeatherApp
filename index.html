@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wrather App</title>
+    <script src="js/all.min.js"></script>
+    <script src="js/momemt.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-section">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input
+            placeholder="Search City..."
+            type="text"
+            class="search-city"
+            id="search-input"
+          />
+        </div>
+        <div class="info-wrapper">
+          <p class="city-name">Ha Noi</p>
+          <p class="weather-state">Mây thưa</p>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather Icon"
+            class="weather-icon"
+          />
+          <p class="temperature">26</p>
+        </div>
+      </div>
+      <div class="additionnal-section">
+        <div class="row">
+          <div class="item">
+            <div class="label">MT mọc</div>
+            <div class="value sunrice">6:15</div>
+          </div>
+          <div class="item">
+            <div class="label">MT lặn</div>
+            <div class="value sunset">18:15</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item">
+            <div class="label">Độ ẩm</div>
+            <div class="value"><span class="humidity">73</span>%</div>
+          </div>
+          <div class="item">
+            <div class="label">Tốc độ gió</div>
+            <div class="value"><span class="wind-speed">73</span>km/h</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
